@@ -4,7 +4,7 @@ const produce = require('immer').produce;
 const initialState = {
     name: 'Chavi Kothari',
     address:{
-        street: '6/12 Model Town',
+        street: '24 Param Housing',
         city: 'Surat',
         state: 'Gujarat',
         country: 'India'
@@ -44,5 +44,5 @@ const unsubscribe = store.subscribe(()=>{
     console.log('Updated State',store.getState())
 })
 
-store.dispatch(updateStreet('A-1101 Simandhar Heights'))
+store.dispatch(updateStreet('32 Shreenath Housing'))
 unsubscribe();
