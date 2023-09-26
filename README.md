@@ -11,9 +11,9 @@ A demo project with the help of youtube channel.
 
 3. For understanding single reducer concept or multiple reducer|combine reducer concept, in index.js file uncomment single reducer part and comment out multiple reducer and vice-versa, then in terminal write
   
-  ```
-  node index
-  ```
+   ```
+   node index
+   ```
 
 3. To understand bind Action Creator you can comment out bind action creator and uncomment the simple dispatch method and vice-versa then in terminal write
 
